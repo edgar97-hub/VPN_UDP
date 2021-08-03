@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/88035917/VPN_UDP.iml" filepath="$PROJECT_DIR$/.idea/modules/88035917/VPN_UDP.iml" group="VPN_UDP" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="VPN_UDP/app" />
+    </modules>
+  </component>
+</project>

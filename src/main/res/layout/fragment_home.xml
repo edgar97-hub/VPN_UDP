@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vpn_udp.HomeFragment">
+
+
+
+    <ImageView
+        android:id="@+id/connect_view"
+        android:layout_width="650dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/conectar"
+        android:clickable="true"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/connected_view"
+        android:layout_width="650dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/disconectar"
+        android:clickable="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/errorconnect_view"
+        android:layout_width="650dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/connect_view"
+        android:layout_alignLeft="@+id/connect_view"
+        android:layout_alignTop="@+id/connect_view"
+        android:background="@drawable/conectar"
+        android:clickable="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/connecting"
+        android:layout_width="650dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/connectando"
+        android:clickable="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>
