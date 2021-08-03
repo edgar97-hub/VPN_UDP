@@ -1,4 +1,3 @@
-# VPN_UDP
-VPN UDP 
+# VPN cliente
 
 Eta aplicacion esta proceso de implementacion
